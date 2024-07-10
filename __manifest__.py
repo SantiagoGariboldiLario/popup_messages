@@ -6,7 +6,7 @@
     "category": "Tools",
     "summary": "Create message box wizard",
     "description": """This module is useful to create a custom popup message.""",
-    "version": "15.0.1.0.0",
+    "version": "17.0.1.0.0",
     "depends": [],
     "license": "AGPL-3",
     "application": True,
