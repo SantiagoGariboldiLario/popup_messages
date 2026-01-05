@@ -1,4 +1,3 @@
-# -*- coding: utf-8 -*-
 {
     "name": "Popup Message",
     "author": "Eynes SRL",
@@ -6,8 +5,8 @@
     "category": "Tools",
     "summary": "Create message box wizard",
     "description": """This module is useful to create a custom popup message.""",
-    "version": "17.0.1.0.0",
-    "depends": [],
+    "version": "19.0.1.0.0",
+    "depends": ["base"],
     "license": "AGPL-3",
     "application": True,
     "data": [

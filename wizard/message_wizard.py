@@ -4,12 +4,8 @@ class MessageWizard(models.TransientModel):
     _name = "message.wizard"
     _description = "Wizard to display messages"
 
-    def _get_default(self):
-        if self.env.context.get("message", False):
-            return self.env.context.get("message")
-        return False
-
     name = fields.Text(
-         string="Message",
-         readonly=True,
-         default=_get_default)
+        string="Message",
+        readonly=True,
+        default=lambda self: self.env.context.get("message", False),
+    )

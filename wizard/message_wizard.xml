@@ -5,7 +5,11 @@
         <field name="model">message.wizard</field>
         <field name="arch" type="xml">
             <form string="Message">
-                <field name="name" />
+                <sheet>
+                    <group>
+                        <field name="name" />
+                    </group>
+                </sheet>
                 <footer>
                     <button string="OK" class="btn-primary" special="cancel" />
                 </footer>
